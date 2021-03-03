@@ -64,6 +64,15 @@ export default class Navbar extends Component {
         >
           Ref
         </Menu.Item>
+
+        <Menu.Item
+          name='git'
+          active={activeItem === 'git'}
+          onClick={this.handleItemClick}
+          as = {Link} to = '/git'
+        >
+          GitUpdate Five
+        </Menu.Item>
       </Menu>
     )
   }
