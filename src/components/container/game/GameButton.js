@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 // import{Card, Col, Row, Table} from 'react-bootstrap'
 
 class GameButton extends Component {
+ //   practiceGit = () =>{console.log(`Practicing Git`)}
     
     render() {
         const {name} = this.props

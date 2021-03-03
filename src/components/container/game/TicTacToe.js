@@ -17,6 +17,7 @@ export class TicTacToe extends Component {
         }  
     }
     
+    practiceGit = () =>{console.log(`Practicing Git`)}
 
     handlePlayerName =(index, e)=>{
         let player = [...this.state.player]

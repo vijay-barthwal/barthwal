@@ -17,6 +17,7 @@ class GameBoard extends Component {
         }
     }
 
+    practiceGit = () =>{console.log(`Practicing Git`)}
     
 
     relodeGame = ()=>{

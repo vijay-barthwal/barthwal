@@ -6,6 +6,7 @@ export default function TicTacToeHooks() {
     const {register, handleSubmit} = useForm()
 
      const onSubmit = data => setPlayer(data)
+     const practiceGit = () =>{console.log(`Practicing Git`)}
 
     return (
         
