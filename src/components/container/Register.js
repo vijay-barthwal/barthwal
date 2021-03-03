@@ -3,6 +3,7 @@ import {Form, Button} from 'semantic-ui-react'
 import { register } from '../actions/action'
 import {connect} from 'react-redux'
 import Layout from '../navbar/Layout'
+//Update git 3rd branch
  class Register extends Component {
     constructor(props) {
         super(props)

@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import ReactStars from "react-rating-stars-component";
  import {connect} from 'react-redux'
 import { rating } from '../actions/action';
+//Update git 3rd branch
 class Stars extends Component {
     constructor(props) {
         super(props)

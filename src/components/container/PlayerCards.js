@@ -3,7 +3,7 @@ import { Card, Button, Rating } from 'semantic-ui-react'
 import {connect} from 'react-redux'
 import {incrementPoint_1, decrementPoint_1, incrementPoint_2, decrementPoint_2, incrementPoint_3, decrementPoint_3, incrementPoint_4, decrementPoint_4, rating_player_1} from '../actions/action'
 import Layout from '../navbar/Layout'
-
+//Update git 3rd branch
 class PlayerCards extends Component {
     constructor(props) {
         super(props)

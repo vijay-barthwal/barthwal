@@ -5,7 +5,7 @@ import {incrementPlayerOne, decrementPlayerOne, addTotalPoints} from '../actions
 import Layout from '../navbar/Layout'
 import CardComponent from './CardComponent'
 import Stars from './Stars'
-
+//Update git 3rd branch
 class PlayersCardArray extends Component {
     constructor(props) {
         super(props)

@@ -3,6 +3,7 @@ import {connect} from 'react-redux'
 import { Button } from 'semantic-ui-react'
 import { getPlayer } from '../actions/action'
 import Layout from '../navbar/Layout'
+//Update git 3rd branch
 class PlayerDetail extends Component {
     constructor(props) {
         super(props)
