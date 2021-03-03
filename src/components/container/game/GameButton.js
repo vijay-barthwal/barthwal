@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 
 class GameButton extends Component {
  //   practiceGit = () =>{console.log(`Practicing Git`)}
-    
+    //Git update Four
     render() {
         const {name} = this.props
         switch(name){
