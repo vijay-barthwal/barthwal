@@ -1,5 +1,5 @@
 
-import {REGISTER,  INCREMENT_POINT_1, DECREMENT_POINT_1, INCREMENT_POINT_2, DECREMENT_POINT_2, INCREMENT_POINT_3, DECREMENT_POINT_3, INCREMENT_POINT_4, DECREMENT_POINT_4, RATING_PLAYER_1, PLAYER_ONE_POINT, PLAYER_TWO_POINT, PLAYER_THREE_POINT, PLAYER_FOUR_POINT, TOTAL_POINT, DECREMENT, RATING, GET_PLAYER } from '../types/types'
+import {REGISTER,  INCREMENT_POINT_1, DECREMENT_POINT_1, INCREMENT_POINT_2, DECREMENT_POINT_2, INCREMENT_POINT_3, DECREMENT_POINT_3, INCREMENT_POINT_4, DECREMENT_POINT_4, RATING_PLAYER_1, PLAYER_ONE_POINT, PLAYER_TWO_POINT, PLAYER_THREE_POINT, PLAYER_FOUR_POINT, TOTAL_POINT, DECREMENT, RATING, GET_PLAYER, GIT_PRACTICE } from '../types/types'
 
 const initialState = {
     // isLoading: false,
@@ -228,6 +228,11 @@ const reducer = (state=initialState, action)=>{
                 ...state,
                 playerDetail:playerDetail
             }
+        }
+
+        case GIT_PRACTICE:{
+            console.log(`Git Practice`)
+            return state
         }
 
         default:{

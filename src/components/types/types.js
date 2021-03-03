@@ -18,3 +18,4 @@ export const PLAYER_FOUR_POINT = "PLAYER_FOUR_POINT";
 export const TOTAL_POINT = "TOTAL_POINT"
 export const RATING = "RATING"
 export const GET_PLAYER = "GET_PLAYER";
+export const GIT_PRACTICE = "GIT_PRACTICE"
